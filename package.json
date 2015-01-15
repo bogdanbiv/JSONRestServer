@@ -1,0 +1,42 @@
+{
+  "name": "JSONRestServer",
+  "description": "middleware for Dojo JSONRest clients",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "mongodb-store": "0.1.1",
+    "mongoskin": "~1.4.1",
+    "mocha": "~2.1.0",
+    "superagent": "~0.17.0",
+    "sinon": "~1.10.3",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-express": "~1.4.1",
+    "matchdep": "~0.3.0",
+    "uuid": "~2.0.1",
+    "bunyan": "~1.2.3",
+    "grunt-mocha-test": "~0.12.4",
+    "pre-commit": "0.0.9",
+    "request-promise": "~0.3.2",
+    "chai": "~1.10.0",
+    "chai-as-promised": "~4.1.1",
+    "sinon-chai": "~2.6.0",
+    "supertest": "~0.15.0"
+  },
+  "dependencies": {
+    "mongoskin": "~1.4.1",
+    "express": "~4.1.1",
+    "body-parser": "~1.0.2",
+    "matchdep": "~0.3.0",
+    "express-cors": "0.0.3"
+  },
+  "scripts": {
+    "start": "nodejs express.js",
+    "postinstall": "bower install",
+    "test": "karma start karma.conf.js"
+  },
+  "author": "Bogdan Bivolaru",
+  "license": "MIT license",
+  "bugs": {
+    "url": "https://github.com/bogdanbiv/JSONRestServer/issues"
+  }
+}
